@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JMenuBar" name="jMenuBar2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JColorChooser" name="jColorChooser1">
+    </Component>
+    <Container class="javax.swing.JFrame" name="jFrame1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JFrame" name="jFrame2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup5">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup6">
+    </Component>
+    <Container class="javax.swing.JDialog" name="jDialog1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton2"/>
+      </Properties>
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar3">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jMenuBar3KeyPressed"/>
+      </Events>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="Find">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Find"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FindActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="Replace">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Replace"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ReplaceActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar3"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="font_style" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="font_size" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="Question" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="1" pref="488" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="Message" alignment="1" pref="297" max="32767" attributes="0"/>
+                  <Component id="send" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="StudentName" min="-2" pref="172" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Component id="tabbed_pane" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="StudentName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" pref="227" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Message" min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Question" min="-2" pref="72" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="font_size" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="send" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="font_style" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="tabbed_pane" min="-2" pref="172" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="Question">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="Question"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="QuestionKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="StudentName">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="Student&apos;s Name"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StudentNameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Message">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Message"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MessageMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MessageActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="MessageKeyPressed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="message_display_area">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="message_display_areaKeyPressed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="font_size">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="55">
+            <StringItem index="0" value="5"/>
+            <StringItem index="1" value="6"/>
+            <StringItem index="2" value="7"/>
+            <StringItem index="3" value="8"/>
+            <StringItem index="4" value="9"/>
+            <StringItem index="5" value="10"/>
+            <StringItem index="6" value="11"/>
+            <StringItem index="7" value="12"/>
+            <StringItem index="8" value="13"/>
+            <StringItem index="9" value="14"/>
+            <StringItem index="10" value="15"/>
+            <StringItem index="11" value="16"/>
+            <StringItem index="12" value="17"/>
+            <StringItem index="13" value="19"/>
+            <StringItem index="14" value="20"/>
+            <StringItem index="15" value="21"/>
+            <StringItem index="16" value="22"/>
+            <StringItem index="17" value="23"/>
+            <StringItem index="18" value="24"/>
+            <StringItem index="19" value="25"/>
+            <StringItem index="20" value="26"/>
+            <StringItem index="21" value="27"/>
+            <StringItem index="22" value="28"/>
+            <StringItem index="23" value="29"/>
+            <StringItem index="24" value="30"/>
+            <StringItem index="25" value="31"/>
+            <StringItem index="26" value="32"/>
+            <StringItem index="27" value="33"/>
+            <StringItem index="28" value="34"/>
+            <StringItem index="29" value="35"/>
+            <StringItem index="30" value="36"/>
+            <StringItem index="31" value="37"/>
+            <StringItem index="32" value="38"/>
+            <StringItem index="33" value="39"/>
+            <StringItem index="34" value="40"/>
+            <StringItem index="35" value="41"/>
+            <StringItem index="36" value="42"/>
+            <StringItem index="37" value="43"/>
+            <StringItem index="38" value="44"/>
+            <StringItem index="39" value="45"/>
+            <StringItem index="40" value="46"/>
+            <StringItem index="41" value="47"/>
+            <StringItem index="42" value="48"/>
+            <StringItem index="43" value="49"/>
+            <StringItem index="44" value="50"/>
+            <StringItem index="45" value="51"/>
+            <StringItem index="46" value="52"/>
+            <StringItem index="47" value="53"/>
+            <StringItem index="48" value="54"/>
+            <StringItem index="49" value="55"/>
+            <StringItem index="50" value="56"/>
+            <StringItem index="51" value="57"/>
+            <StringItem index="52" value="58"/>
+            <StringItem index="53" value="59"/>
+            <StringItem index="54" value="60"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="font_sizeItemStateChanged"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="font_sizeKeyPressed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="font_style">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="188">
+            <StringItem index="0" value="Times New Roman"/>
+            <StringItem index="1" value="Abadi MT Condensed Extra Bold"/>
+            <StringItem index="2" value="Abadi MT Condensed Light"/>
+            <StringItem index="3" value="Academy Engraved LET"/>
+            <StringItem index="4" value="Al Bayan"/>
+            <StringItem index="5" value="American Typewriter"/>
+            <StringItem index="6" value="Andale Mono"/>
+            <StringItem index="7" value="Apple Casual"/>
+            <StringItem index="8" value="Apple Chancery"/>
+            <StringItem index="9" value="Apple LiGothic"/>
+            <StringItem index="10" value="Apple LiSung"/>
+            <StringItem index="11" value="Apple Symbols"/>
+            <StringItem index="12" value="AppleGothic"/>
+            <StringItem index="13" value="AppleMyungjo"/>
+            <StringItem index="14" value="Arial"/>
+            <StringItem index="15" value="Arial Black"/>
+            <StringItem index="16" value="Arial Hebrew"/>
+            <StringItem index="17" value="Arial Narrow"/>
+            <StringItem index="18" value="Arial Rounded MT Bold"/>
+            <StringItem index="19" value="Ayuthaya"/>
+            <StringItem index="20" value="Baghdad"/>
+            <StringItem index="21" value="Bank Gothic"/>
+            <StringItem index="22" value="Baskerville"/>
+            <StringItem index="23" value="Baskerville Old Face"/>
+            <StringItem index="24" value="Batang"/>
+            <StringItem index="25" value="Bauhaus 93"/>
+            <StringItem index="26" value="Bell MT"/>
+            <StringItem index="27" value="Bernard MT Condensed"/>
+            <StringItem index="28" value="BiauKai"/>
+            <StringItem index="29" value="Big Caslon"/>
+            <StringItem index="30" value="Bitstream Vera Sans"/>
+            <StringItem index="31" value="Bitstream Vera Sans Mono"/>
+            <StringItem index="32" value="Bitstream Vera Serif"/>
+            <StringItem index="33" value="Blackmoor LET"/>
+            <StringItem index="34" value="BlairMdITC TT"/>
+            <StringItem index="35" value="Bodoni Ornaments ITC TT"/>
+            <StringItem index="36" value="Bodoni SvtyTwo ITC TT"/>
+            <StringItem index="37" value="Bodoni SvtyTwo OS ITC TT"/>
+            <StringItem index="38" value="Bodoni SvtyTwo SC ITC TT"/>
+            <StringItem index="39" value="Book Antiqua"/>
+            <StringItem index="40" value="Bookman Old Style"/>
+            <StringItem index="41" value="Bordeaux Roman Bold LET"/>
+            <StringItem index="42" value="Bradley Hand ITC TT"/>
+            <StringItem index="43" value="Braggadocio"/>
+            <StringItem index="44" value="Britannic Bold"/>
+            <StringItem index="45" value="Brush Script MT"/>
+            <StringItem index="46" value="Calisto MT"/>
+            <StringItem index="47" value="Century"/>
+            <StringItem index="48" value="Century Gothic"/>
+            <StringItem index="49" value="Century Schoolbook"/>
+            <StringItem index="50" value="Chalkboard"/>
+            <StringItem index="51" value="Charcoal CY"/>
+            <StringItem index="52" value="Cochin"/>
+            <StringItem index="53" value="Colonna MT"/>
+            <StringItem index="54" value="Comic Sans MS"/>
+            <StringItem index="55" value="Cooper Black"/>
+            <StringItem index="56" value="Copperplate"/>
+            <StringItem index="57" value="Copperplate Gothic Bold"/>
+            <StringItem index="58" value="Copperplate Gothic Light"/>
+            <StringItem index="59" value="Corsiva Hebrew"/>
+            <StringItem index="60" value="Courier"/>
+            <StringItem index="61" value="Courier New"/>
+            <StringItem index="62" value="Cracked"/>
+            <StringItem index="63" value="Curlz MT"/>
+            <StringItem index="64" value="DecoType Naskh"/>
+            <StringItem index="65" value="Desdemona"/>
+            <StringItem index="66" value="Devanagari MT"/>
+            <StringItem index="67" value="Dialog"/>
+            <StringItem index="68" value="DialogInput"/>
+            <StringItem index="69" value="Didot"/>
+            <StringItem index="70" value="Edwardian Script ITC"/>
+            <StringItem index="71" value="Engravers MT"/>
+            <StringItem index="72" value="Euphemia UCAS"/>
+            <StringItem index="73" value="Eurostile"/>
+            <StringItem index="74" value="Footlight MT Light"/>
+            <StringItem index="75" value="Futura"/>
+            <StringItem index="76" value="Garamond"/>
+            <StringItem index="77" value="GB18030 Bitmap"/>
+            <StringItem index="78" value="Geeza Pro"/>
+            <StringItem index="79" value="Geneva"/>
+            <StringItem index="80" value="Geneva CY"/>
+            <StringItem index="81" value="Georgia"/>
+            <StringItem index="82" value="Gill Sans"/>
+            <StringItem index="83" value="Gill Sans Ultra Bold"/>
+            <StringItem index="84" value="Gloucester MT Extra Condensed"/>
+            <StringItem index="85" value="Goudy Old Style"/>
+            <StringItem index="86" value="Gujarati MT"/>
+            <StringItem index="87" value="Gulim"/>
+            <StringItem index="88" value="Gurmukhi MT"/>
+            <StringItem index="89" value="Haettenschweiler"/>
+            <StringItem index="90" value="Handwriting - Dakota"/>
+            <StringItem index="91" value="Harrington"/>
+            <StringItem index="92" value="Hei"/>
+            <StringItem index="93" value="Helvetica"/>
+            <StringItem index="94" value="Helvetica CY"/>
+            <StringItem index="95" value="Helvetica Neue"/>
+            <StringItem index="96" value="Herculanum"/>
+            <StringItem index="97" value="Hiragino Kaku Gothic Pro"/>
+            <StringItem index="98" value="Hiragino Kaku Gothic Std"/>
+            <StringItem index="99" value="Hiragino Maru Gothic Pro"/>
+            <StringItem index="100" value="Hiragino Mincho Pro"/>
+            <StringItem index="101" value="Hoefler Text"/>
+            <StringItem index="102" value="Impact"/>
+            <StringItem index="103" value="Imprint MT Shadow"/>
+            <StringItem index="104" value="InaiMathi"/>
+            <StringItem index="105" value="Jazz LET"/>
+            <StringItem index="106" value="Kai"/>
+            <StringItem index="107" value="Kino MT"/>
+            <StringItem index="108" value="Krungthep"/>
+            <StringItem index="109" value="KufiStandardGK"/>
+            <StringItem index="110" value="LiHei Pro"/>
+            <StringItem index="111" value="LiSong Pro"/>
+            <StringItem index="112" value="Lucida Blackletter"/>
+            <StringItem index="113" value="Lucida Bright"/>
+            <StringItem index="114" value="Lucida Calligraphy"/>
+            <StringItem index="115" value="Lucida Fax"/>
+            <StringItem index="116" value="Lucida Grande"/>
+            <StringItem index="117" value="Lucida Handwriting"/>
+            <StringItem index="118" value="Lucida Sans"/>
+            <StringItem index="119" value="Lucida Sans Typewriter"/>
+            <StringItem index="120" value="Marker Felt"/>
+            <StringItem index="121" value="Matura MT Script Capitals"/>
+            <StringItem index="122" value="Mistral"/>
+            <StringItem index="123" value="Modern No. 20"/>
+            <StringItem index="124" value="Mona Lisa Solid ITC TT"/>
+            <StringItem index="125" value="Monaco"/>
+            <StringItem index="126" value="Monospaced"/>
+            <StringItem index="127" value="Monotype Corsiva"/>
+            <StringItem index="128" value="Monotype Sorts"/>
+            <StringItem index="129" value="MS Gothic"/>
+            <StringItem index="130" value="MS Mincho"/>
+            <StringItem index="131" value="MS PGothic"/>
+            <StringItem index="132" value="MS PMincho"/>
+            <StringItem index="133" value="Mshtakan"/>
+            <StringItem index="134" value="MT Extra"/>
+            <StringItem index="135" value="Nadeem"/>
+            <StringItem index="136" value="New Peninim MT"/>
+            <StringItem index="137" value="News Gothic MT"/>
+            <StringItem index="138" value="Onyx"/>
+            <StringItem index="139" value="OpenSymbol"/>
+            <StringItem index="140" value="Optima"/>
+            <StringItem index="141" value="Osaka"/>
+            <StringItem index="142" value="Palatino"/>
+            <StringItem index="143" value="Papyrus"/>
+            <StringItem index="144" value="Party LET"/>
+            <StringItem index="145" value="Perpetua Titling MT"/>
+            <StringItem index="146" value="Plantagenet Cherokee"/>
+            <StringItem index="147" value="Playbill"/>
+            <StringItem index="148" value="PMingLiU"/>
+            <StringItem index="149" value="PortagoITC TT"/>
+            <StringItem index="150" value="Princetown LET"/>
+            <StringItem index="151" value="Raanana"/>
+            <StringItem index="152" value="Rockwell"/>
+            <StringItem index="153" value="Rockwell Extra Bold"/>
+            <StringItem index="154" value="SansSerif"/>
+            <StringItem index="155" value="Santa Fe LET"/>
+            <StringItem index="156" value="Sathu"/>
+            <StringItem index="157" value="Savoye LET"/>
+            <StringItem index="158" value="SchoolHouse Cursive B"/>
+            <StringItem index="159" value="SchoolHouse Printed A"/>
+            <StringItem index="160" value="Serif"/>
+            <StringItem index="161" value="Silom"/>
+            <StringItem index="162" value="SimSun"/>
+            <StringItem index="163" value="Skia"/>
+            <StringItem index="164" value="Snell Roundhand"/>
+            <StringItem index="165" value="Stencil"/>
+            <StringItem index="166" value="STFangsong"/>
+            <StringItem index="167" value="STHeiti"/>
+            <StringItem index="168" value="STKaiti"/>
+            <StringItem index="169" value="Stone Sans ITC TT"/>
+            <StringItem index="170" value="Stone Sans Sem ITC TT"/>
+            <StringItem index="171" value="STSong"/>
+            <StringItem index="172" value="Symbol"/>
+            <StringItem index="173" value="Synchro LET"/>
+            <StringItem index="174" value="Tahoma"/>
+            <StringItem index="175" value="Thonburi"/>
+            <StringItem index="176" value="Times"/>
+            <StringItem index="177" value="Times New Roman"/>
+            <StringItem index="178" value="Trebuchet MS"/>
+            <StringItem index="179" value="Type Embellishments One LET"/>
+            <StringItem index="180" value="Verdana"/>
+            <StringItem index="181" value="Webdings"/>
+            <StringItem index="182" value="Wide Latin"/>
+            <StringItem index="183" value="Wingdings"/>
+            <StringItem index="184" value="Wingdings 2"/>
+            <StringItem index="185" value="Wingdings 3"/>
+            <StringItem index="186" value="Zapf Dingbats"/>
+            <StringItem index="187" value="Zapfino"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="font_styleItemStateChanged"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="font_styleActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="font_styleKeyPressed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="send">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Send"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sendActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="sendKeyPressed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="tabbed_pane">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tabbed_paneKeyPressed"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Input">
+                <Property name="tabTitle" type="java.lang.String" value="Input"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="input_text_tab">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+              <Events>
+                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="input_text_tabKeyPressed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Output">
+                <Property name="tabTitle" type="java.lang.String" value="Output"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="output_text_tab">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+              <Events>
+                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="output_text_tabKeyPressed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JEditorPane" name="code_editor">
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="code_editorMouseClicked"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="code_editorKeyPressed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="code_editorKeyReleased"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="code_editorKeyTyped"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Close"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
